@@ -56,7 +56,7 @@ namespace InsertIcons
         //icons. Explorer shows the first icon in the file by default, so
         //we'll give our inserted icons names that are higher than 32512 so
         //the originally selected icon is the first one in the file.
-        private const int StartIconId = 40000;
+        private const int StartIconId = 32500;
 
         public static int Main(string[] args)
         {
